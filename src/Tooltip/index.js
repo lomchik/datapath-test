@@ -30,7 +30,7 @@ class Tooltip extends React.Component {
         }
     }
     render() {
-        var style = {top: this.props.top, left: this.props.left, opacity: this.props.show * 1};
+        var style = {top: this.props.top + window.scrollY, left: this.props.left + window.scrollX, opacity: this.props.show * 1};
         if (this.parentOffset) {
             style.top -= this.parentOffset.top;
             style.left -= this.parentOffset.left;

@@ -18,7 +18,7 @@ module.exports = {
             },
             {
                 test: /\.less$/,
-                loader: 'style-loader!css-loader!postcss-loader!less-loader!'
+                loader: 'style-loader!css-loader!less-loader!'
             },
             { test: /\.(woff|woff2)$/,  loader: "url-loader?limit=10000&mimetype=application/font-woff" },
             { test: /\.ttf$/,    loader: "file-loader" },
