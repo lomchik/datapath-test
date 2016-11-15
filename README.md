@@ -6,6 +6,7 @@ nodejs v6.9
 
 how to run:
 load package and run commands:
+- run mongodb server
 - npm install
 - npm run
 wait till webpack will finish it's work 
