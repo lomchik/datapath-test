@@ -10,7 +10,9 @@ load package and run commands:
 - run mongodb server
 - npm install
 - npm run
-wait till webpack will finish it's work 
+
+wait till webpack will finish it's work
+
 open http://localhost:3003
 
 P.S: to add comment open post and select text
